@@ -30,23 +30,30 @@ void rand_checker(const char* const filename, int (*rand_function)(void))
         return;                         
     }
     
-    for(int i=1;i<(samplesHalf+1);++i)
+    for(int i=1;i<(samples+1);++i)
     {
-        x=(rand_function()%10);                 //oder %11? 
-        y=(rand_function()%10);         
-        fprintf(f,"%d %d | %d %d\n",i,x,i+1,y);
+        if((i%2)!=0)
+            x=(rand_function()%10);
+        else
+        {
+            y=(rand_function()%10);
+            fprintf(f,"%d %d | %d %d\n",i-1,x,i,y);
+        }
+/*
         chisq+=pow((x-e),2)/e;                  // what is e?!
         
         if(i<=(samplesHalf-1))                  //for calculating autocorrelation
             zaehler+=(x-avg)*(y-avg);
         
         naenner+=pow((x-avg),2);
-        
+*/
     }
     
     autoCorrelation=(double)(zaehler/naenner);
     
     fclose(f);
+    
+    
     
 }
 
@@ -55,7 +62,7 @@ int main(int argc, char** argv)
     
     int rand(void);
     
-    rand_checker("test.txt", rand());
+    rand_checker("test.txt", rand);
 
 
     return (EXIT_SUCCESS);
