@@ -49,7 +49,9 @@ void rand_checker(const char* const filename, int (*rand_function)(void))
 */
     }
     
+/*
     autoCorrelation=(double)(zaehler/naenner);
+*/
     
     fclose(f);
     
