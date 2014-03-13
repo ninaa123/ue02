@@ -40,7 +40,7 @@ set style line 24 lc rgb '#FF7F00' pt 2 lw 2 # darkorange (orange)
 
 set style line 25 lc rgb '#00BFFF' pt 7 lw 2 # deepskyblue (hellblau)
 set style line 26 lc rgb '#1874CD' pt 7 lw 2 # dodgerblue (mittelblau)
-set style line 27 lc rgb '#0000FF' pt 7 ps 0.5 # blue (blau), 
+set style line 27 lc rgb '#0000FF' pt 7 ps 0.5 # blue (blau)
 
 set style line 28 lc rgb '#32CD32' pt 7 lw 2 # limegreen (hellgr¸n)
 set style line 29 lc rgb '#008B00' pt 7 lw 2 # green (dunkelgr¸n)
@@ -55,6 +55,8 @@ set style line 36 lc rgb '#FF7F00' pt 7 lw 2 # darkorange (orange)
 
 set grid
 unset key
+
+set yrange[0:20]
 
 set output "plot2a.eps"
 plot "test.txt" u 1:2 ls 25
