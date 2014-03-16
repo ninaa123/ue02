@@ -12,7 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>ue02_bsp01.c</itemPath>
+      <itemPath>ue02.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -38,9 +38,9 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="ue02.gp" ex="false" tool="3" flavor2="0">
+      <item path="ue02.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="ue02_bsp01.c" ex="false" tool="0" flavor2="0">
+      <item path="ue02.gp" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -64,9 +64,9 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="ue02.gp" ex="false" tool="3" flavor2="0">
+      <item path="ue02.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="ue02_bsp01.c" ex="false" tool="0" flavor2="0">
+      <item path="ue02.gp" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=ue02_bsp01
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/ue02_bsp01
+CND_ARTIFACT_NAME_Debug=ue02
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/ue02
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=ue02bsp01.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/ue02bsp01.tar
+CND_PACKAGE_NAME_Debug=ue02.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/ue02.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX
-CND_ARTIFACT_NAME_Release=ue02_bsp01
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/ue02_bsp01
+CND_ARTIFACT_NAME_Release=ue02
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/ue02
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
-CND_PACKAGE_NAME_Release=ue02bsp01.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/ue02bsp01.tar
+CND_PACKAGE_NAME_Release=ue02.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/ue02.tar
 #
 # include compiler specific variables
 #

@@ -15,6 +15,7 @@ function createPdf {
 
 gnuplot ue02.gp
 createPdf "plot2a"
+createPdf "plot1a"
 
 rm tmp.tex
 rm tmp.pdf

@@ -56,7 +56,14 @@ set style line 36 lc rgb '#FF7F00' pt 7 lw 2 # darkorange (orange)
 set grid
 unset key
 
-set yrange[0:20]
-
 set output "plot2a.eps"
-plot "test.txt" u 1:2 ls 25
+plot "dat.txt" u 1:2 ls 25
+
+set style data histogram
+set style histogram cluster gap 1
+set boxwidth 0.9
+set auto x
+set xrange[-1:10]
+
+set output "plot1a.eps"
+plot "counter.txt" u 2 ls 2 t "number of random number per bin" fill pattern
